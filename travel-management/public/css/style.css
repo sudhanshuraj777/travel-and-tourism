@@ -1,0 +1,123 @@
+/* ==============================
+   🌍 Global Styles
+============================== */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f9fc;
+  color: #333;
+}
+
+/* ==============================
+   🌍 Header
+============================== */
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ==============================
+   📦 Section Titles
+============================== */
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* ==============================
+   💼 Package / Booking Cards
+============================== */
+.package,
+.booking-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.package:hover,
+.booking-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.booking-card h3 {
+  margin: 5px 0;
+  color: #222;
+}
+
+.booking-card p {
+  margin: 6px 0;
+  line-height: 1.4;
+}
+
+/* Highlight important info */
+.booking-card strong {
+  color: #007bff;
+}
+
+/* ==============================
+   🧾 Message / Status Text
+============================== */
+#msg {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* ==============================
+   🧭 Buttons
+============================== */
+button,
+.book-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin-top: 10px;
+}
+
+button:hover,
+.book-btn:hover {
+  background-color: #0056b3;
+}
+
+/* ==============================
+   🧭 Admin Layout
+============================== */
+#bookings-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+

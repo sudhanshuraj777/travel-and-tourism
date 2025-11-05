@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register - TTMS</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Register</h1>
+  </header>
+
+  <main>
+    <form id="registerForm" class="form">
+      <input type="text" name="full_name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="text" name="contact_no" placeholder="Contact No">
+      <input type="text" name="address" placeholder="Address">
+      <button type="submit">Register</button>
+      <p id="msg"></p>
+    </form>
+  </main>
+
+  <!-- load external JS file instead of inline script -->
+  <script src="/js/register.js"></script>
+</body>
+</html>
